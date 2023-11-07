@@ -47,6 +47,7 @@ Here you can have a qiuck look at the setup I have:
 
 <p align="center" width="100%">
     <img src="Tema3/Tema3Pic.jpeg" width="500"/>
+    <img src="Tema3/SchematicTema3.png" width="500"/>
 </p>
 
 And here you have a short [demo](https://youtu.be/dt2dZcCphvs) of how everything works.
@@ -71,6 +72,7 @@ Here you can have a quick look at the setup that I have:
 
 <p align="center" width="100%">
     <img src="Tema4/Tema4Pic.jpeg" width="500"/>
+    <img src="Tema4/SchematicTema4.png" width="500"/>
 </p>
 
 And here you have a short [demo](https://youtu.be/mWI0-JqA_ME) of how everything works.
