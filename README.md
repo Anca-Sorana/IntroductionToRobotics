@@ -77,3 +77,30 @@ Here you can have a quick look at the setup that I have:
 
 And here you have a short [demo](https://youtu.be/mWI0-JqA_ME) of how everything works.
 </details>
+
+<details>
+<summary>Homework no.5</summary>
+    
+### Description
+This project is about implementing a stopwatch timer using a 4-digit 7-segment display and 3 buttons. The stopwatch will count in tenths of a second and feature a save lap functionality, similar to basic stopwatch functions found on most phones. The starting value of the display should be "000.0". Each button on the device will have distinct functionalities such as start/pause, reset, and save/cycle laps. 
+
+### Task Requirements
+* **Stopwatch Timer Implementation:** Create a stopwatch timer using a 4-digit 7-segment display and 3 buttons.
+* **Starting Value:** The display should initially show "000.0".
+* **Button Functionalities:**
+  * Button 1: Start/pause the stopwatch.
+  * Button 2:
+    * Reset the timer when in pause mode.
+    * Reset saved laps when in lap viewing mode.
+  * Button 3:
+    * Save lap times when the timer is counting (up to 4 laps).
+    * Cycle through the last saved laps.
+* **Workflow:**
+  * The display starts at "000.0". Pressing the Start button begins the timer.
+  * During the timer, pressing the lap button saves the current time in memory (up to 4 laps).
+  * If the reset button is pressed while the timer is running, nothing happens.
+  * In pause mode, the lap button is inactive. Pressing reset sets the display to "000.0".
+  * After resetting, pressing the lap button cycles through saved lap times. Continuously pressing it cycles through them repeatedly.
+  * Pressing reset in lap viewing mode clears all saved laps and resets the display to "000.0".
+    
+</details>
