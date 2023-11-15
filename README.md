@@ -103,4 +103,14 @@ This project is about implementing a stopwatch timer using a 4-digit 7-segment d
   * After resetting, pressing the lap button cycles through saved lap times. Continuously pressing it cycles through them repeatedly.
   * Pressing reset in lap viewing mode clears all saved laps and resets the display to "000.0".
     
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Tema5/tema5/tema5.ino).
+
+Here you can have a quick look at the setup that I have:
+
+<p align="center" width="100%">
+    <img src="Tema5/Tema3Pic.jpeg" width="500"/>
+    <img src="Tema5/SchematicTema5.png" width="500"/>
+</p>
+
+And here you have a short [demo](https://youtu.be/_mtUpsOnUPA) of how everything works.    
 </details>
