@@ -14,12 +14,12 @@ This homework is focused on gaining experience with potentiometers, Arduino, and
 * **Digital Electronics:** Learn how to use Arduino to read the potentiometer values.
 * **Color Mapping:** After reading the potentiometer values, map and send these values to the LED pins to achieve precise color control.
 
-The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Tema2/main_code/main_code.ino).
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Homework2/code_hm_2/code_hm_2.ino).
 
 Here you can have a qiuck look at the setup I have:
 
 <p align="center" width="100%">
-    <img src="Tema2/Tema2Pic.jpeg" width="500"/>
+    <img src="Homework2/PicHM2.jpeg" width="500"/>
 </p>
 
 And here you have a short [demo](https://youtu.be/HEL5YOT_iao) of how everything works.
@@ -41,13 +41,13 @@ This assignment involves simulating a 3-floor elevator control system using LEDs
 * **State Management & Timers:** If the elevator is already stationed at the chosen floor, pressing the button designated for that floor should not trigger any actions. Upon a button press, the elevator should "pause for the doors to close" and subsequently "move" to the selected floor. If the elevator is already moving when another floor button is pressed, it should either continue its current course or queue its next action (i.e., once it arrives at the first selected floor, it opens the doors, waits, closes them, and then heads to the next chosen floor).
 * **Debounce Implementation:** It's crucial to integrate debounce techniques for the buttons. This will help in preventing unintended repeated activations due to button bounce.
 
-The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Tema3/main/main.ino).
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Homework3/code_hm_3/code_hm_3.ino).
 
 Here you can have a qiuck look at the setup I have:
 
 <p align="center" width="100%">
-    <img src="Tema3/Tema3Pic.jpeg" width="500"/>
-    <img src="Tema3/SchematicTema3.png" width="500"/>
+    <img src="Homework3/PicHM3.jpeg" width="500"/>
+    <img src="Homework3/SchematicHM3.png" width="500"/>
 </p>
 
 And here you have a short [demo](https://youtu.be/dt2dZcCphvs) of how everything works.
@@ -66,13 +66,13 @@ Develop an interactive interface where users employ a joystick to 'draw' on a di
 * **Toggle Segment State:** A short press on the button will switch the segment state between ON and OFF.
 * **Display Reset:** A long press on the button will revert the entire display to its default state. This action turns all segments OFF and returns the current position to the decimal point.
 
-The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Tema4/main/main.ino).
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Homework4/code_hm_4/code_hm_4.ino).
 
-Here you can have a quick look at the setup that I have:
+Here you can have a qiuck look at the setup I have:
 
 <p align="center" width="100%">
-    <img src="Tema4/Tema4Pic.jpeg" width="500"/>
-    <img src="Tema4/SchematicTema4.png" width="500"/>
+    <img src="Homework4/PicHM4.jpeg" width="500"/>
+    <img src="Homework4/SchematicHM4.png" width="500"/>
 </p>
 
 And here you have a short [demo](https://youtu.be/mWI0-JqA_ME) of how everything works.
@@ -103,13 +103,13 @@ This project is about implementing a stopwatch timer using a 4-digit 7-segment d
   * After resetting, pressing the lap button cycles through saved lap times. Continuously pressing it cycles through them repeatedly.
   * Pressing reset in lap viewing mode clears all saved laps and resets the display to "000.0".
     
-The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Tema5/tema5/tema5.ino).
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Homework5/code_hm_5/code_hm_5.ino).
 
-Here you can have a quick look at the setup that I have:
+Here you can have a qiuck look at the setup I have:
 
 <p align="center" width="100%">
-    <img src="Tema5/Tema3Pic.jpeg" width="500"/>
-    <img src="Tema5/SchematicTema5.png" width="500"/>
+    <img src="Homework5/PicHM5.jpeg" width="500"/>
+    <img src="Homework5/SchematicHM5.png" width="500"/>
 </p>
 
 And here you have a short [demo](https://youtu.be/_mtUpsOnUPA) of how everything works.    
