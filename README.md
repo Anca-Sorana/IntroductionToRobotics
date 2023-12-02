@@ -114,3 +114,40 @@ Here you can have a qiuck look at the setup I have:
 
 And here you have a short [demo](https://youtu.be/_mtUpsOnUPA) of how everything works.    
 </details>
+
+<details>
+    <summary>Homework no. 6</summary>
+
+### Description
+The Smart Environment Monitor and Logger is an Arduino-based system designed to collect and log environmental data. It integrates various sensors, EEPROM for data logging, and provides user interaction through an RGB LED and a Serial Menu. The project emphasizes on sensor integration, memory management, Serial Communication, and menu-driven user interaction.
+
+### Task Requirements
+
+* Sensor Data Collection: Utilizes multiple sensors to gather environmental data.
+* Data Logging: Logs sensor data into EEPROM for later retrieval and analysis.
+* Visual Feedback: Uses an RGB LED for visual alerts and status indications.
+* Serial Menu Interface: Offers a user-friendly serial menu for system interaction and configuration.
+
+#### Menu structure
+* Sensor Settings
+    * Sampling Interval: Set the interval (1-10 seconds) for sensor data sampling.
+    * Ultrasonic Alert Threshold: Set a threshold for the ultrasonic sensor to trigger alerts.
+    * LDR Alert Threshold: Set a threshold for the LDR sensor to trigger alerts.
+    * Back: Return to the main menu.  
+
+* Reset Logger Data
+    * Yes: Confirm and delete all logged data.
+    * No: Cancel and return to the main menu.
+
+* System Status
+    * Current Sensor Readings: View real-time sensor data.
+    * Current Sensor Settings: Display current sensor configurations.
+    * Display Logged Data: Show the last 10 sensor readings.
+    * Back: Return to the main menu.
+
+* RGB LED Control
+    * Manual Color Control: Customize the RGB LED color.
+    * LED Automatic Mode: Toggle between automatic and manual LED modes.
+    * Back: Return to the main menu.
+
+</details>
