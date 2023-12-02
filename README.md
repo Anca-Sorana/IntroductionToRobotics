@@ -122,7 +122,6 @@ And here you have a short [demo](https://youtu.be/_mtUpsOnUPA) of how everything
 The Smart Environment Monitor and Logger is an Arduino-based system designed to collect and log environmental data. It integrates various sensors, EEPROM for data logging, and provides user interaction through an RGB LED and a Serial Menu. The project emphasizes on sensor integration, memory management, Serial Communication, and menu-driven user interaction.
 
 ### Task Requirements
-
 * Sensor Data Collection: Utilizes multiple sensors to gather environmental data.
 * Data Logging: Logs sensor data into EEPROM for later retrieval and analysis.
 * Visual Feedback: Uses an RGB LED for visual alerts and status indications.
@@ -149,5 +148,48 @@ The Smart Environment Monitor and Logger is an Arduino-based system designed to 
     * Manual Color Control: Customize the RGB LED color.
     * LED Automatic Mode: Toggle between automatic and manual LED modes.
     * Back: Return to the main menu.
+
+</details>
+
+<details>
+    <summary>Homework no. 7</summary>
+
+### Description
+Matrix Maze is an engaging 8x8 matrix-based game designed to introduce you to the world of matrix projects. In this game, you navigate a player through a maze of walls, deploying bombs or bullets to clear your path. The game features a Bomberman-style or terminator-tanks gameplay with a twist of strategy and quick reflexes. It's a perfect blend of nostalgia and modern programming challenges.
+
+#### Game Elements
+* **Player:** Represented by a blinking LED, the player moves around the matrix to break walls and avoid bombs.
+* **Bombs/Bullets:** These elements blink rapidly and are used by the player to destroy walls.
+* **Walls:** Non-blinking elements that occupy 50% - 75% of the map, creating a maze for the player to navigate.
+
+#### Game Objective:
+Your goal is to navigate through the maze, strategically place bombs, and destroy all the walls without getting caught in the bomb's blast. A special animation signals the game's end if the player is caught in an explosion, after which the game restarts.
+
+### Task Requirements:
+* LED Differentiating:
+    * The player's LED should blink slowly to distinguish it from other elements.
+    * Bombs/Bullets should have a fast blinking rate.
+    * Walls remain static (non-blinking).
+* Control:
+    * Implement smooth and responsive controls for an enjoyable gameplay experience.
+    * You may choose any control mechanism (e.g., joystick) but focus on player comfort and ease of handling.
+* Initial Setup:
+    * Ensure walls are not generated on the player's starting position.
+    * The initial setup should offer a fair chance for the player to strategize their first move.
+* Game Logic:
+    * Implement a mechanism where placing a bomb requires the player to move away to avoid the blast.
+    * The game should restart with an animation if the player fails to escape the blast.
+* Creativity:
+    * Feel free to add your creative touch, whether it's in gameplay, additional elements, or visual effects.
+
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Homework7/code_hm_7/code_hm_7.ino).
+
+Here you can have a qiuck look at the setup I have:
+
+<p align="center" width="100%">
+    <img src="Homework7/PicHM7.jpeg" width="500"/>
+</p>
+
+And here you have a short [demo]() of how everything works. 
 
 </details>
