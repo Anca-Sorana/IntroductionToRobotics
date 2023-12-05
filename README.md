@@ -190,6 +190,6 @@ Here you can have a qiuck look at the setup I have:
     <img src="Homework7/PicHM7.jpeg" width="500"/>
 </p>
 
-And here you have a short [demo]() of how everything works. 
+And here you have a short [demo](https://youtu.be/HjIJpKtIvGo) of how everything works. 
 
 </details>
