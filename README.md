@@ -225,4 +225,16 @@ The objective of the project was to build a line following robot that calibrates
 For the sensor calibration the robot turns left until the last sensor on the right sees the black tape, and then change direction of until the last sensor on the left sees the black tape. It keeps repeting this process for a few seconds then starts following the line.
 
 The robot uses a PID control algorithm to adjust the speed of the motors based on the position of the robot over the line. The constants that we found to give the best results are *Kp = 25* and *Kd = 8* and the *error* ignore interval was *[-18, 18]* (from a total of [-50, 50]).
+
+Here you can have a qiuck look at the setup we had:
+
+<p align="center" width="100%">
+    <img src="Line Follower/Setup.jpeg" width="500"/>
+</p>
+
+Here you have a demo of the final product:
+<br>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=WD_PTPWl2f0/"><img src="https://img.youtube.com/vi/WD_PTPWl2f0/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
 </details>
