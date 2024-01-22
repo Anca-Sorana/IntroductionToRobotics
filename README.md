@@ -226,7 +226,7 @@ For the sensor calibration the robot turns left until the last sensor on the rig
 
 The robot uses a PID control algorithm to adjust the speed of the motors based on the position of the robot over the line. The constants that we found to give the best results are *Kp = 25* and *Kd = 8* and the *error* ignore interval was *[-18, 18]* (from a total of [-50, 50]).
 
-The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Line Follower/lineFollower/lineFollower.ino).
+The main code is presented [here](https://github.com/Anca-Sorana/IntroductionToRobotics/blob/main/Line%20Follower/lineFollower/lineFollower.ino).
 
 Here you can have a qiuck look at the setup and the schematic we had:
 
